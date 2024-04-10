@@ -23,7 +23,7 @@ if __name__ == '__main__':
     enhanced_dir = args.enhanced_dir
 
     data = {"filename": [], "pesq": [], "estoi": [], "si_sdr": [], "si_sir": [],  "si_sar": []}
-    sr = 16000
+    sr = 48000
 
     # Evaluate standard metrics
     noisy_files = sorted(glob('{}/*.wav'.format(noisy_dir)))
